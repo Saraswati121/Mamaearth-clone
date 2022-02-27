@@ -1,0 +1,267 @@
+.text-dark:link {
+    text-decoration: none;
+  }
+  .footer-box-low{
+      position: relative;
+  }
+  .col-rig{
+      position:absolute;
+      margin-left: 76%;
+      width: 13%;
+      height: 55%;
+  }
+  
+  .footer__div {
+    /* width: 400px; */
+    position: relative;
+  }
+  .payment {
+    display: flex;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  .lpay {
+    flex-basis: 45%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .lpay > h4 {
+    font-size: 18px;
+    margin-left: 3%;
+  }
+  .lpay > p > img {
+    width: 3%;
+    margin-left: 3%;
+  }
+  .lpay > div > img {
+    width: 12%;
+    margin-left: 1%;
+  }
+  .lpay > div > img:nth-child(1) {
+    margin-left: 3%;
+  }
+  .rpay {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+  .rpay > div {
+    margin: 2%;
+    font-size: 12px;
+  }
+  .rpay > div > img {
+    width: 38%;
+    margin: 14% 0 2% 18%;
+  }
+  .rpay > div:nth-child(2) > img {
+    width: 68%;
+    margin: 22% 0 0 7%;
+  }
+  .rpay > div:nth-child(2) {
+    margin-left: -2%;
+  }
+  .rpay > div:nth-child(1) {
+    margin-left: 8%;
+  }
+  .rpay > div:nth-child(3) > img {
+    width: 62%;
+    margin: 24% 0 2% 22%;
+  }
+  
+  .shiping {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  .shipright > button {
+    background-color: white;
+    color: #00afef;
+    border: 1px solid #00afef;
+    margin: 2%;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  #help{
+      width: 100px;
+      height: 0;
+      padding: 20px;
+      transform: rotate(-90deg);
+      position:fixed;
+      color: white;
+      background-color: #008f00;
+      margin: 22% 95% ;
+      border-radius: 5px;
+      z-index: 1;
+      cursor: pointer;
+  }
+  /*  */
+  .MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+  }
+  .MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
+  }
+  .MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+  }
+  .MultiCarousel .MultiCarousel-inner .item > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #f1f1f1;
+    color: #666;
+  }
+  .MultiCarousel .leftLst,
+  .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+  }
+  .MultiCarousel .leftLst {
+    left: 0;
+  }
+  .MultiCarousel .rightLst {
+    right: 0;
+  }
+  
+  .MultiCarousel .leftLst.over,
+  .MultiCarousel .rightLst.over {
+    pointer-events: none;
+    background: #ccc;
+  }
+  /*  */
+  #certiBox {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4%;
+  }
+  .certificate {
+    flex-basis: 32%;
+    display: flex;
+  }
+  
+  /*  */
+  #treeBox {
+    background-image: url(https://mamaearthp.imgix.net/wysiwyg/desktop_home_img.png?auto=format);
+    background-size: cover;
+    height: 350px;
+  }
+  .contentTree {
+    margin-left: 28%;
+    padding-top: 5%;
+  }
+  
+  .testingEarth {
+    margin: 5%;
+  }
+  
+  
+  /* login */
+  #loginFormBOX{
+      margin: 5%;
+      margin-left: 22%;
+  }
+  #mobileNoEnter{
+      width: 65%;
+      height: 40px;
+      margin-bottom: 1%;
+      border: 1px solid #dde;
+  }
+  #mobileNoEnter:focus{
+      outline: none;
+      border-color: #41A8DD;
+  }
+  #loginBtn{
+      width: 65%;
+      height: 40px;
+      border: none;
+      background-color: #41A8DD;
+      color: white;
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 3px;
+      cursor: pointer;
+  }
+  
+  /* dropdown */
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+    /* display: flex; */
+  }
+  .dropbtn {
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #f9f9f9; */
+    position:inherit;
+    text-align: center;
+    min-width: 200px;
+    /* transform: translate(-20%, 0) */
+    z-index: 1;
+  }
+  .contentrow{
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transform: translate(-20%, 0);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 26px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .contentrow a:hover {background-color: #f1f1f1}
+  
+  .dropdown1:hover .contentrow{
+    display: block;
+  }
+  
+  #secondHelp{
+    width: 320px;
+    height: 450px;
+    background-color: #41A8DD;
+    border-radius: 10px;
+    position: fixed;
+    flex-direction: column;
+    transform: translate(320%, 22%);
+    z-index: 2;
+  }
+  #topHelp{
+    background-color: rgb(0,143,0);
+    flex-basis: 25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #topHelp > div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  #topHelp > div
+  #midHelp{
+    flex-basis: 70%;
+  }
+  #lowHelp{
+    flex-basis: 5%;
+  }
